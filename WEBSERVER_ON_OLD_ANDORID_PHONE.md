@@ -1,6 +1,9 @@
-how to convert my old phone as linux server to host my websites
-ChatGPT said:
+# CONVERT YOUR OLD PHONE INTO A PERSONAL WEB SERVER ( For Learning )
 
+# Prompt 1: How to convert my old phone into a Linux server to host my websites.
+
+## ChatGPT said:
+```
 Great idea 👍 Turning an old phone into a Linux server to host websites is possible, but the process depends on whether the phone is Android or iPhone and how much control you can gain over it.
 
 Here’s a structured guide for Android phones (since iPhones are heavily locked down and not practical for server use):
@@ -77,10 +80,13 @@ If you plan something heavier (like video hosting, AI workloads), it’s better 
 
 Do you want me to give you a step-by-step Termux setup guide with Nginx + PHP (lightweight and good for hosting websites), or would you rather go full Linux (Linux Deploy / custom ROM)?
 
-You said:
-yes please , but go with tomcat 
-ChatGPT said:
+```
 
+
+# Prompt 2: Yes, please, but go with Tomcat! 
+
+## ChatGPT said:
+```
 Perfect 👍 You want to use Tomcat (Java web server) on your old Android phone with Termux. That’s absolutely possible. I’ll give you a step-by-step guide so you can turn your phone into a mini Java web server.
 
 🚀 Running Apache Tomcat on Android with Termux
@@ -181,16 +187,19 @@ It can serve JSPs, Servlets, Spring Boot WARs, etc.
 
 Do you want me to also show you how to deploy a simple “Hello World” JSP/Servlet app on this Tomcat so you can test it right away?
 
-You said:
-Yes following is the JSON prompt -
+``` 
+
+# Prompt 3: Yes, following is the JSON prompt -
+```
 {
   "Website_details": "A simple spring boot web application that save and edit contacts. Contact info like , image , email,phone number , full name,etc. ",
   "Framework_used": "Spring Boot, Java, HTML, CSS, MySQL",
   "Plugins": "AWS for image storage, thymeleaf as template engine",
   "future_integration_tools": "kafka, Agentic AI, Redis "
 }
-ChatGPT said:
-
+```
+## ChatGPT said:
+```
 Got it 👍 thanks for sharing the JSON prompt.
 You want to deploy a Spring Boot web app on Tomcat running inside your old phone. Let’s break it down step by step using your details.
 
@@ -348,15 +357,18 @@ Use Cloudflare Tunnel / Ngrok for public access if you don’t control router.
 ⚡ That’s it — you now have a Spring Boot Contacts App running on Tomcat hosted by your Android phone.
 
 Do you want me to generate a ready-made sample Spring Boot WAR project (Contacts App) so you can build & deploy it directly on your phone, or should I give you just a minimal Hello World WAR first (to confirm Tomcat is working)?
-
-You said:
+```
+# Prompt 4: 
+``` 
 {
   "question_1":"Explain in detail around installing mySQL inside termux only wit detailed steps and how to setup user password and use phone's ROM as storage.",
   "question_2":"Security majors to be taken if we are deploying an app using old phone.",
   "question_3":"Detailed steps on how to deploy the application on phone",
   "question_4": "Detailed steps on how to make website publiocally available."
 }
-ChatGPT said:
+```
+## ChatGPT said:
+``` 
 Thought for 1m 49s
 
 Awesome—let’s make this practical and bullet-proof. I’ll answer each item with exact Termux commands and gotchas for Android.
@@ -628,4 +640,7 @@ Quick checklist
 
  Termux:Boot script tested
 
+
 If you want, I can generate a ready-to-paste Nginx HTTPS server block for your exact domain, or a one-file backup script that dumps your DB daily to /sdcard and prunes old backups.
+
+```
